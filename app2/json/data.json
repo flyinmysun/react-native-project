@@ -1,0 +1,9 @@
+{
+  "data":[
+  {"id":0,"url":"./imgs/png4.png","name":"為小兔","msg":"最近一条消息记录显示","time":"15:02"},
+  {"id":1,"url":"./imgs/png3.png","name":"漾小蛇","msg":"最近一条消息记录显示","time":"15:06"},
+  {"id":2,"url":"./imgs/png1.png","name":"猴趴","msg":"最近一条消息记录显示","time":"15:08"},
+  {"id":3,"url":"./imgs/png2.png","name":"蓝趴","msg":"最近一条消息记录显示","time":"15:12"},
+  {"id":4,"url":"./imgs/png5.png","name":"粉趴","msg":"最近一条消息记录显示","time":"15:22"}
+]
+}

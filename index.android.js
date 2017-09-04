@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import LearnView from "./app/LearnView"
 import LoginView from "./app/LoginView"
-import Root from './app1/Root'
+import Root from './app2/Root'
 import LearnText from './app/LearnText'
 import LearnTouchableOpacity from  "./app/LearnTouchableOpacity"
 import LearnImage from  "./app/LearnImage"
@@ -35,22 +35,5 @@ export default class first_app extends Component {
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-      backgroundColor:"yellow",
-
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
 
 AppRegistry.registerComponent('first_app', () => first_app);
