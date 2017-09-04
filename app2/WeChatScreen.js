@@ -13,14 +13,23 @@ const styles = StyleSheet.create({
 
 export default class WeChatScreen extends React.Component{
     static navigationOptions = {
-        headerTitle:"微信",
-        headerStyle:{backgroundColor:"#333333",elevation: 0},
-        headerTitleStyle:{color:"#fafafa"},
+        headerTitle:"微信",//标题
+        headerStyle:{
+            backgroundColor:"#333333",//头部背景颜色
+            elevation: 0  //去掉头部底下的阴影，ios是设置透明度
+        },//头部样式
+        headerTintColor: '#fafafa',//头部整体颜色，包括默认图标的颜色
+        headerTitleStyle:{ //标题文字样式
+            color:"#fafafa"
+        },
+        headerBackTitleStyle:{ //返回文字样式
+            color:"#fafafa"
+        },
+        headerLeft:null,//自定义左边返回按钮区域
         headerRight:<Image
             source={require("./imgs/plus.png")}
             style={styles.headerRight}
         />,
-        showIcon:true,
     }
 
     render(){
@@ -33,16 +42,15 @@ export default class WeChatScreen extends React.Component{
                             <Text style={{fontSize:12}}>搜索</Text>
                         </View>
                         <View>
-                                {
-                                    Data.data.map((item,index)=>{
-                                        return (
-                                            <View>
-                                                <Text>{item.name}</Text>
-                                            </View>
-                                        )
-                                    })
-                                }
-
+                            {
+                                Data.data.map((item,index)=>{
+                                    return (
+                                        <View key={index} style={{height:200}}>
+                                            <Text>{item.name}</Text>
+                                        </View>
+                                    )
+                                })
+                            }
                         </View>
                     </View>
                 </ScrollView>

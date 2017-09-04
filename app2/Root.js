@@ -17,7 +17,6 @@ export default class Root extends React.Component{
             <App></App>
         )
     }
-
 }
 const MainScreen = TabNavigator({
     WeChat:{
@@ -35,6 +34,7 @@ const MainScreen = TabNavigator({
     Contacts:{
         screen:ContactScreen,
         navigationOptions:{
+            //headerTitle:"通讯录",
             tabBarLabel: '通讯录',
             tabBarIcon: ({tintColor}) => (
                 <Image
@@ -96,7 +96,13 @@ const App = StackNavigator({
             headerStyle:{backgroundColor:"#fafafa",elevation: 0}//导航条样式
         }
     },
-    Main: {screen: MainScreen},
+    Main: {
+        screen: MainScreen,
+        navigationOptions:{
+            //headerTitle:"首页",
+            //header:null
+        }
+    },
 
 },
 {
