@@ -1,6 +1,6 @@
 import React from "react"
 import {View,ScrollView,ListView,StyleSheet} from "react-native"
-import Util from "./../comment/util"
+import Util from "../comment/util"
 import SearchBar from "../../douBanProject/comment/searchBar"
 import Service from "../comment/service"
 import BookItem from "../../douBanProject/book/BookItem"

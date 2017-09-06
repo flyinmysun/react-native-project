@@ -8,5 +8,6 @@ let url = {
     BookDetail:`${BaseURL}+"book/"`,
     //电影搜索
     MovieSearch:`${BaseURL}+"movie/search"`,
-
 }
+
+export default url

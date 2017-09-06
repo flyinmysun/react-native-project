@@ -18,5 +18,6 @@ let util={
 
     //loading效果
     loading:<ActivityIndicator style={{marginTop:200}}/>
-
 }
+
+export default util
