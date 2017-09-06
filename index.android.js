@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import LearnView from "./app/LearnView"
 import LoginView from "./app/LoginView"
-import Root from './app2/Root'
+import Root from './douBanProject/Root'
 import LearnText from './app/LearnText'
 import LearnTouchableOpacity from  "./app/LearnTouchableOpacity"
 import LearnImage from  "./app/LearnImage"

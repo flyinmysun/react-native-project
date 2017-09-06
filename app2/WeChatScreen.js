@@ -25,7 +25,7 @@ export default class WeChatScreen extends React.Component{
         headerBackTitleStyle:{ //返回文字样式
             color:"#fafafa"
         },
-        headerLeft:null,//自定义左边返回按钮区域
+        //headerLeft:null,//自定义左边返回按钮区域
         headerRight:<Image
             source={require("./imgs/plus.png")}
             style={styles.headerRight}

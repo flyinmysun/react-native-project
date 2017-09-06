@@ -29,6 +29,7 @@ const MainScreen = TabNavigator({
                     style={{tintColor: tintColor,width:24,height:24}}
                 />
             ),
+
         },
     },
     Contacts:{
